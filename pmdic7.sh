@@ -45,4 +45,6 @@ cd Gnome2-Vte-0.11
 sudo perl Makefile.PL
 sudo make
 sudo make install
-echo ">> All done, try starting PAC Manager now."
+echo "Please cd to the pac directory and run the following command: "
+echo "find . -name "Vte.so*" -exec rm -v {} +"
+echo ">> Now try starting PAC Manager."
