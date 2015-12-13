@@ -4,7 +4,7 @@ echo "# https://github.com/telefax                            #"
 echo "#########################################################"
 echo ">> Enable EPEL repo..."
 sudo yum install -y epel-release
-echo ">> Installing epel and various needed tools via yum..."
+echo ">> Installing various needed tools via yum..."
 sudo yum install -y ftp perl-Gtk2.x86_64 unique-devel.x86_64 libglade2-devel.x86_64 perl-Socket6.x86_64 vte-devel.x86_64 GConf2-devel.x86_64 cpan perl-Gtk2 perl-YAML uuid-perl.x86_64 perl-Crypt-CBC.noarch
 echo ">> Installing Development tools via yum..."
 sudo yum groupinstall "Development tools"
