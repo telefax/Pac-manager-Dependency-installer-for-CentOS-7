@@ -10,7 +10,7 @@ echo ">> Installing Development tools via yum..."
 sudo yum groupinstall -y "Development tools"
 echo ">> Installing Perl Modules via CPAN (First step might require CPAN configuration, just press enter on all questions..."
 echo ">>> Installing Module::Build"
-sudo cpan -i Module::Build
+sudo cpan -if Module::Build
 echo ">>> Installing IO::Stty "
 sudo cpan -i IO::Stty
 echo ">>> Installing Glib"
