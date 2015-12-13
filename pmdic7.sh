@@ -35,6 +35,8 @@ echo ">>> Installing Gtk2::Ex::Simple::List"
 sudo cpan -i Gtk2::Ex::Simple::List
 echo ">>> Installing Gtk2::GladeXML"
 sudo cpan -i Gtk2::GladeXML
+echo ">>> Installing Gnome2::GConf"
+sudo cpan -if Gnome2::GConf
 echo "###################"
 echo ">> Downloading and compiling Gnome Vte 0.11.."
 wget http://search.cpan.org/CPAN/authors/id/X/XA/XAOC/Gnome2-Vte-0.11.tar.gz
