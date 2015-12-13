@@ -8,7 +8,7 @@ echo ">> Installing various needed tools via yum..."
 sudo yum install -y ftp perl-Gtk2.x86_64 unique-devel.x86_64 libglade2-devel.x86_64 perl-Socket6.x86_64 vte-devel.x86_64 GConf2-devel.x86_64 cpan perl-Gtk2 perl-YAML uuid-perl.x86_64 perl-Crypt-CBC.noarch
 echo ">> Installing Development tools via yum..."
 sudo yum groupinstall -y "Development tools"
-echo ">> Installing Perl Modules via CPAN..."
+echo ">> Installing Perl Modules via CPAN (First step might require CPAN configuration, just press enter on all questions..."
 echo ">>> Installing Module::Build"
 sudo cpan -i Module::Build
 echo ">>> Installing IO::Stty "
