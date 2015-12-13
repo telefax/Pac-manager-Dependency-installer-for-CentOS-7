@@ -5,4 +5,5 @@ Download Pac Manager 4.5.5.7 manually from http://sourceforge.net/projects/pacma
 Unpack the directory.
 
 Run the pmdic7.sh script 
+
 All commands are run as sudo and there are no fail checks.
