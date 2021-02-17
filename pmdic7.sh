@@ -1,3 +1,5 @@
+#!/bin/bash
+
 echo "#########################################################"
 echo "# Pac Manager 4.5.5.7 Dependency Installer for CentOS 7 #"
 echo "# https://github.com/telefax                            #"
